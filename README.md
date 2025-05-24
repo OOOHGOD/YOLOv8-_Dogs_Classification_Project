@@ -1,0 +1,2 @@
+# YOLOv8-_Dogs_Classification_Project
+用哈佛大学的狗狗数据集做的基于yolov8的犬类品种检测的项目
