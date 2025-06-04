@@ -1,0 +1,57 @@
+# IntelliJ IDEA
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 大型文件和目录 - 考虑使用 Git LFS 或将这些文件存储在其他地方
+# 如果您的数据集或模型文件非常大，取消注释下面的行可能会很有用
+# YOLO_Dataset/
+# trained_models/
+# pre_trained_model/
+# YOLOv8犬种类别检测模型训练与验证配置及过程.docx
+# dog_db.sql

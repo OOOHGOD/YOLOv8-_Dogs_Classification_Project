@@ -1,0 +1,36 @@
+# 推荐保存路径：/content/drive/MyDrive/Project/YOLOv8犬种类别检测/YOLO_Dataset/data.yaml
+
+# 数据集根目录（重要！需与实际路径完全一致）
+# 修改后的正确路径配置
+path: /content/drive/MyDrive/Project/YOLOv8犬种类别检测/YOLO_Dataset  # 必须使用Colab绝对路径
+
+train: Train_YOLO/images
+val: Validation_YOLO/images
+test: Test_YOLO/images
+
+nc: 23
+
+names: 
+  - husky                # 0
+  - beagle               # 1 (统一小写格式)
+  - chihuahua            # 2
+  - japanese_spaniel     # 3
+  - pekinese             # 4
+  - shih_tzu             # 5 (连字符改为下划线)
+  - afghan_hound         # 6
+  - airedale             # 7
+  - basset               # 8
+  - blenheim_spaniel     # 9
+  - bloodhound           # 10
+  - corgi                # 11
+  - dandie_dinmont       # 12 (统一小写)
+  - irish_wolfhound      # 13
+  - maltese_dog          # 14
+  - papillon             # 15
+  - retriever            # 16
+  - rhodesian_ridgeback  # 17
+  - saluki               # 18
+  - staffordshire_bullterrier # 19
+  - standard_schnauzer   # 20
+  - toy_terrier          # 21
+  - vizsla               # 22
